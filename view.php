@@ -10,7 +10,7 @@ $result = $conn->query($sql);
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container my-5" style="margin-top: 50px">
+    <div class="container my-5" style="margin-top: 50px; font-family:Garamond, serif">
     <table class="table">
     <thead>
         <tr>

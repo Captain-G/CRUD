@@ -53,7 +53,59 @@ if (isset($_GET['id'])) {
           </fieldset>
         </form> 
         </body>
-        </html> 
+
+
+
+
+
+
+        <!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="form.css">
+
+    <title>SignUp</title>
+  </head>
+  <body>
+    <div class="content my-5" style="font-family: Garamond, serif">
+      <h2 style="font-family: Copperplate, Papyrus, fantasy; font-size: larger;">ENTER YOUR DETAILS BELOW</h2>
+
+    <form action="test.php" method="post" autocomplete="off">
+      <div class="form-group">
+        <label for="first_name">First name</label>
+        <input type="text" class="form-control"  name="first_name" value="<?php echo $first_name; ?>"required>
+        <input type="hidden" name="id" value="<?php echo $id;?>">
+      </div>
+      <div class="form-group">
+        <label for="last_name">Last name</label>
+        <input type="text" class="form-control"  name="last_name" value="<?php echo $last_name; ?>">
+        <input type="hidden" name="id" value="<?php echo $id;?>">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control"  name="email_address" value="<?php echo $email_address; ?>"required>
+        <input type="hidden" name="id" value="<?php echo $id;?>">
+      </div>
+      <div class="form-group">
+        <label for="first_name">Phone number</label>
+        <input type="text" class="form-control"  name="phone_number" value="<?php echo $phone_number; ?>"required>
+        <input type="hidden" name="id" value="<?php echo $id;?>">
+      </div>
+     
+      <button type="submit" class="btn btn-primary" name="update" value="submit" id="myButton">Submit</button>
+
+    </form>
+  </div>  -->
+
+  
+  </body>
+</html> 
+
     <?php
     } else{ 
         header('Location: view.php');
