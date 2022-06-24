@@ -2,6 +2,10 @@ html *
 {
    font-size: 1em;
    color: #000;
+   
+}
+body{
+    background-color: rgba(139, 130, 130, 0.526);
 }
 
 .content{
